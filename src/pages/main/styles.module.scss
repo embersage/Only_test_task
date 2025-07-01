@@ -1,0 +1,39 @@
+.pageWrapper {
+  padding: 0 160px 0 320px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4f5f9;
+}
+
+.title {
+  font-family: PT Sans, sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #42567a;
+}
+
+.years {
+  font-family: PT Sans, sans-serif;
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 160px;
+  letter-spacing: -2%;
+  text-align: center;
+
+  .firstYear {
+    color: var(--contrast-color-1);
+  }
+
+  .secondYear {
+    color: var(--contrast-color-2);
+  }
+}
+
+.swiperButtons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
