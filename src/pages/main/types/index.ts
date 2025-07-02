@@ -3,3 +3,8 @@ export type Years = {
   firstYear: number;
   secondYear: number;
 };
+
+export type Paragraph = {
+  year: number;
+  text: string;
+};

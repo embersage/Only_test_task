@@ -1,4 +1,4 @@
-import { Years } from "../types";
+import type { Years } from "../types";
 
 export const years: Years[] = [
   { title: "Технологии", firstYear: 1980, secondYear: 1986 },
